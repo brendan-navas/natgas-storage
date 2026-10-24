@@ -1,0 +1,12 @@
+pandas
+numpy
+requests
+yfinance
+python-dotenv
+pyarrow
+statsmodels
+scikit-learn
+matplotlib
+pytest
+jupyter
+pyyaml
