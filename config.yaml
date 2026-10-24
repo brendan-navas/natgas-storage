@@ -6,7 +6,7 @@ sample:
   test_end: "2024-04-05"
 
 weather:
-  history start: "2004-01-01"
+  history_start: "2004-01-01"
   base_temp_f: 65
   cities: []
 
