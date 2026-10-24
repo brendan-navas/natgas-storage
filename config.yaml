@@ -1,0 +1,30 @@
+sample:
+  history_start: "2005-01-01"
+  start: "2010-01-01"
+  train_end: "2019-12-31"
+  test_start: "2020-01-01"
+  test_end: "2024-04-05"
+
+weather:
+  history start: "2004-01-01"
+  base_temp_f: 65
+  cities: []
+
+costs:
+  tick_usd_mmbtu: 0.001
+  base_ticks_round_trip: 2
+  tick_grid: [2, 4, 6, 8, 10]
+
+model:
+  rv_window_days: 20
+  hac_lags_weekly: 4
+  hac_ lags_overlapping: 8
+
+backtest:
+  contract: 2
+
+paths:
+  raw: data/raw
+  interim: data/interim
+  processed: data/processed
+  figures: reports/figures
