@@ -1,0 +1,17 @@
+# secrets
+.env
+
+# environment
+.venv/
+
+# data is rebuilt by the pipeline; the Bloomberg export must never be committed
+data/*
+!data/README.md
+
+# python / jupyter / OS
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
